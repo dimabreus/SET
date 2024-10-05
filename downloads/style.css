@@ -85,6 +85,22 @@ span {
     padding-right: 10px;
 }
 
+.content-wrapper .names {
+    width: 100%;
+
+    padding-left: .5rem;
+
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.content-wrapper .names .info {
+    width: 48%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 .content-wrapper .item-wrapper {
     width: 100%;
     padding-top: 7px;
@@ -107,4 +123,16 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.content-wrapper .item .download button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: white;
+    transition-duration: .25s;
+}
+
+.content-wrapper .item .download button:hover {
+    background-color: #006bb7;
 }
